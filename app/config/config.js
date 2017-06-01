@@ -1,9 +1,9 @@
 'use strict';
 
-const appName = 'advanced-vending-dashboard';
+const appName = 'boilerplate';
 const config = {
     appName: appName,
-    environment: process.env.environment,
+    environment: process.env.environment || 'dev',
     port: process.env.PORT || '8080'
    };
 
